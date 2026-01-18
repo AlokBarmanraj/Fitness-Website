@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #111111;
+}
+
+
+/* Navbar */
+.navebar{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 57px;
+}
+.nav-logo{
+    font-size: 36px;
+    font-weight: 800;
+    color: #E6533C;
+}
+.menu{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 67px;
+    border: 1px solid rgba(255, 255, 255, 0.192);
+    padding: 0 15px 0 5px;
+    border-radius: 46px;
+}
+.menu p{
+    cursor: pointer;
+}
+.menu-color{
+    background-color: #E6533C;
+    padding: 10px 15px;
+    border-radius: 46px;
+}
+.nav-menu-icon{
+    display: flex;
+    color: white;
+    align-items: center;
+    display: none;
+}
+
+
+/* Hero Section */
+.hero{
+    max-width: 1060px;
+    display: flex;
+    justify-content: space-between;
+    margin: 33px auto 0;
+    color: white;
+    align-items: center;
+}
+.hero-header{
+    width: 50%;
+
+}
+.hero-header h1{
+    font-size: 78px;
+    font-weight: 900px;
+    margin-bottom: 28px;
+}
+.hero-header p{
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 28px;
+}
+.btn{
+    padding: 16px 45px;
+    background-color: #E6533C;
+    border: none;
+    color: white;
+    border-radius: 42px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(9, 207, 207);
+    color: #111111;
+    transition: 0.5s;
+}
+
+.my-btn{
+    padding: 16px 45px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+    border-radius: 42px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.my-btn:hover{
+    background-color: rgb(9, 207, 207);
+    color: #111111;
+    transition: 0.5s;
+}
+.hero-image{
+   position: relative;
+   display: flex;
+}
+.workout-video{
+    max-width: 210px;
+    padding: 17px 24px 16px;
+    background-color: rgba(255, 255, 255, 0.089);
+    border-radius: 12px;
+    position: absolute;
+    right: 0;
+    margin-right: -50px;
+    margin-top: 120px;
+}
+.workout-video h1{
+    font-size: 40px;
+}
+.workout-video p{
+    font-size: 13px;
+}
+.video-tutorial{
+    max-width: 210px;
+    padding: 17px 20px 16px;
+    background-color: rgba(255, 255, 255, 0.089);
+    border-radius: 12px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: -90px;
+    bottom: 15%;
+}
+.ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
+.video-tutorial p{
+    font-size: 13px;
+}
+
+
+/* Change Your HabitsChange Your Habits */
+.habits{
+    max-width: 1060px;
+    margin: 100px auto 0;
+    color: white;
+}
+.habits-header{
+    text-align: center;
+}
+.habits-header h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.habits-header p{
+    font-size: 14px;
+    margin-bottom: 58px;
+}
+.habits-style{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.habits-style img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.habits-style h4{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.habits-style p{
+    font-size: 14px;
+}
+
+
+/* Run an Extra Mile Easily  */
+.easily{
+    max-width: 1060px;
+    margin: 100px auto 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    border-radius: 20px;
+}
+.easily-header{
+    padding: 41px 0 41px 54px;
+}
+.easily-header h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.easily-header p{
+    font-size: 14px;
+    margin-bottom: 34px;
+}
+.btn-2{
+    padding: 16px 45px;
+    background-color: #E6533C;
+    border: none;
+    color: white;
+    border-radius: 42px;
+    cursor: pointer;
+}
+.easily-image img{
+    width: 366px;
+    height: 312px;
+    padding: 30px 32px 30px 0;
+    border-radius: 18px;
+}
+
+
+/* Trainings and Exercises */
+
+.exercises{
+    max-width: 1060px;
+    margin: 100px auto 0;
+    color: white;
+}
+.exercises-header h1{
+    font-size: 48;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.exercises-header p{
+    font-size: 14px;
+    margin-bottom: 58px;
+}
+.exercises-image{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 218px);
+}
+.image-1{
+    background-color: #06FFD2 ;
+    position: relative;
+}
+.image-2{
+    background-color: #FF0000;
+    grid-column: span 2;
+    position: relative;
+}
+.image-3{
+    background-color: #CCCCCC;
+    position: relative;
+}
+.image-4{
+    background-color: #ffff;
+    grid-column: span 2;
+    position: relative;
+}
+.image-5{
+    background-color: #42FF00;
+    position: relative;
+}
+.image-6{
+    background-color: #0047FF;
+    position: relative;
+}
+.exercises-image img{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+.image-2{
+    
+}
+.image-4{
+    
+}
+.tittle-1{
+    position: absolute;
+    z-index: 50;
+    left: 30px;
+    bottom: 22%;
+}
+.tittle-2{
+    position: absolute;
+    z-index: 50;
+    top: 20px;
+    left: 30px;
+}
+.tittle-3{
+    position: absolute;
+    z-index: 50;
+    left: 30px;
+    bottom: 20px;
+}
+.tittle-4{
+    position: absolute;
+    z-index: 50;
+    top: 20px;
+    right: 50px;
+}
+.tittle-5{
+    position: absolute;
+    z-index: 50;
+    left: 30px;
+    bottom: 20px;
+}
+.tittle-6{
+    position: absolute;
+    z-index: 50;
+    left: 30px;
+    bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 393px) {
+    /* Navebar */
+    .navebar{
+        padding-top: 30px;
+    }
+    .menu{
+        display: none;
+    }
+    .nav-menu-icon{
+        display: inline;
+        padding-right: 5px;
+        padding-top: 20px;
+    }
+
+
+    /* Hero Section */
+    .hero{
+        flex-direction: column;
+    }
+    .hero-header{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .hero-header h1{
+        font-size: 36px;
+    }
+    .my-btn{
+        padding: 16px 30px;
+    }
+    .hero-image{
+        width: 100%;
+    }
+    .workout-video{
+        right: 10px;
+        margin-right: 0px;
+        margin-top: 65px;
+    }
+    .workout-video h1{
+        font-size: 30px;
+    }
+    .video-tutorial{
+        margin-left: 20px;
+        bottom: 45%;
+    }
+
+
+    /* Change Your HabitsChange Your Habits */
+    .habits{
+        margin-top: 40px;
+    }
+    .habits-header h1{
+        font-size: 32px;
+    }
+    .habits-style{
+        display: grid;
+        gap: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* Run an Extra Mile Easily */
+    .easily{
+        margin-top: 50px;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .easily-header{
+        padding: 41px 20px 41px 20px;
+    }
+    .easily-header h1{
+        font-size: 32px;
+    }
+    .btn-2{
+        padding-left: 103px;
+        padding-right: 103px;
+        align-items: center;
+    }
+    .easily-image img{
+        width: 100%;
+        padding: 0 20px 20px 20px;
+    }
+}
