@@ -271,12 +271,6 @@
     height: 100%;
     mix-blend-mode: multiply;
 }
-.image-2{
-    
-}
-.image-4{
-    
-}
 .tittle-1{
     position: absolute;
     z-index: 50;
@@ -315,7 +309,53 @@
 }
 
 
+/* Meet Our Team */
+.meet{
+    max-width: 1060px;
+    margin: 100px auto 0; 
+    color: white;
+}
+.meet-header{
+    max-width: 1060px;
+    margin: 100px auto 0; 
+    text-align: center;
+    color: white;
+}
+.meet-header h1{
+    font-size: 48;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.meet-header p{
+    font-size: 14px;
+    margin-bottom: 58px;
+}
+.meet-trainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.meet-trainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.meet-trainer-image{
+    position: relative;
+}
+.meet-trainer-name{
 
+    position: absolute;
+    z-index: 50;
+    bottom: 20px;
+    left: 50px;
+}
+.meet-trainer-name h6{
+    font-size: 20px;
+}
+.meet-trainer-name p{
+    color: rgb(134, 133, 133);
+}
 
 
 
@@ -327,6 +367,9 @@
     /* Navebar */
     .navebar{
         padding-top: 30px;
+    }
+    .nav-logo{
+        padding-left: 15px;
     }
     .menu{
         display: none;
@@ -404,5 +447,38 @@
     .easily-image img{
         width: 100%;
         padding: 0 20px 20px 20px;
+    }
+
+
+    /* Trainings and Exercises */
+    .exercises{
+       margin-top: 66px;
+       padding: 0 20px;
+    }
+    .exercises-header p{
+        margin-bottom: 30px;
+    }
+    .image-1{
+        grid-column: span 2;
+    }
+    .image-3{
+        display: none;
+    }
+    .image-5{
+        grid-column: span 2;
+    }
+    .image-6{
+        display: none;
+    }
+
+
+    /* Meet Our Team */
+    .meet{
+        margin-top: 66px;
+        padding: 0 20px;
+    }
+    .meet-trainer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
