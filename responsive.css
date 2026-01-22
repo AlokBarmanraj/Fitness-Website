@@ -1,0 +1,225 @@
+@media screen and (max-width: 479px) {
+    /* Navebar */
+    .navebar{
+        padding-top: 30px;
+    }
+    .nav-logo{
+        padding-left: 15px;
+    }
+    .menu{
+        display: none;
+    }
+    .nav-menu-icon{
+        display: inline;
+        padding-right: 5px;
+        padding-top: 20px;
+    }
+
+
+    /* Hero Section */
+    .hero{
+        flex-direction: column;
+    }
+    .hero-header{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .hero-header h1{
+        font-size: 36px;
+    }
+    .my-btn{
+        padding: 16px 30px;
+    }
+    .hero-image img{
+        width: 100%;
+    }
+    .workout-video{
+        right: 10px;
+        margin-right: 0px;
+        margin-top: 65px;
+    }
+    .workout-video h1{
+        font-size: 30px;
+    }
+    .video-tutorial{
+        margin-left: 20px;
+        bottom: 45%;
+    }
+
+
+    /* Change Your HabitsChange Your Habits */
+    .habits{
+        margin-top: 40px;
+    }
+    .habits-header h1{
+        font-size: 32px;
+    }
+    .habits-style{
+        display: grid;
+        gap: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* Run an Extra Mile Easily */
+    .easily{
+        margin-top: 50px;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .easily-header{
+        padding: 41px 20px 41px 20px;
+    }
+    .easily-header h1{
+        font-size: 32px;
+    }
+    .btn-2{
+        padding-left: 103px;
+        padding-right: 103px;
+        align-items: center;
+    }
+    .easily-image img{
+        width: 100%;
+        padding: 0 20px 20px 20px;
+    }
+
+
+    /* Trainings and Exercises */
+    .exercises{
+       margin-top: 66px;
+       padding: 0 20px;
+    }
+    .exercises-header p{
+        margin-bottom: 30px;
+    }
+    .image-1{
+        grid-column: span 2;
+    }
+    .image-3{
+        display: none;
+    }
+    .image-5{
+        grid-column: span 2;
+    }
+    .image-6{
+        display: none;
+    }
+
+
+    /* Meet Our Team */
+    .meet{
+        margin-top: 66px;
+        padding: 0 20px;
+    }
+    .meet-trainer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* Footer */
+    .footer-size{
+        padding-left: 20px;
+    }
+    .footer-display{
+        flex-direction: column;
+    }
+    hr{
+        margin-right: 20px;
+    }
+}
+
+
+
+/* Landscape (min-width:479px) and (max-width:767px) */
+@media screen and (min-width: 479px) and (max-width: 767px) {
+    /* Navbar */
+    .nav-logo{
+        padding-left: 20px;
+    }
+    .menu{
+        gap: 20px;
+    }
+    .nav-menu-icon{
+        padding-right: 20px;
+    }
+
+
+    /* Hero Section */
+    .hero{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hero-header{
+        width: 100%;
+    }
+    .hero-header h1{
+        font-size: 40px;
+    }
+
+
+    /* Change Your Habits */
+    .habits-style{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Run an Extra Mile Easily */
+    .easily{
+        flex-direction: column;
+        margin: 80px 20px 0;
+    }
+    .easily-header{
+        padding: 20px;
+    }
+    .easily-image img{
+        width: 100%;
+        padding: 0 20px 20px;
+    }
+
+
+
+    /* Trainings and Exercises */
+    .exercises{
+        padding: 0 20px 0;
+    }
+    .exercises-header{
+        text-align: center;
+    }
+    .exercises-image{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .image-2{
+        grid-column: span 1;
+    }
+    .image-4{
+        grid-column: span 1;
+    }
+
+
+    /* Meet Our Team */
+    .meet-trainer{
+        padding: 0;
+        margin: 0 20px 0;
+    }
+    .meet-trainer-name{
+        left: 0;
+        bottom: 0;
+    }
+
+
+
+    /* footer */
+    .footer-display{
+        gap: 10px;
+        padding: 0 20px 20px;
+    }
+
+}
+
+
+
