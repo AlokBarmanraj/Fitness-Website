@@ -334,6 +334,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    background-color: #222222;
+    padding: 20px;
+    border-radius: 10px;
 }
 .meet-trainer img{
     width: 100%;
@@ -355,6 +358,58 @@
 }
 .meet-trainer-name p{
     color: rgb(134, 133, 133);
+}
+
+
+/* footer */
+.footer-section{
+    background-color: #222222;
+    margin-top: 100px;
+    color: white;
+}
+.footer-size{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 60px 0 35px 0;
+}
+.footer-display{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 85px;
+}
+.footer-header{
+    width: 50%;
+}
+.footer-header h1{
+    font-size: 60px;
+    color: #E6533C;
+    margin-bottom: 16px;
+}
+.footer-menu h4{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-started h4{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.footer-started{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+hr{
+    border: 1px solid rgb(95, 93, 93);
+    margin-bottom: 20px;
+} 
+.copy-right{
+    text-align: center;
 }
 
 
@@ -395,7 +450,7 @@
     .my-btn{
         padding: 16px 30px;
     }
-    .hero-image{
+    .hero-image img{
         width: 100%;
     }
     .workout-video{
@@ -480,5 +535,17 @@
     .meet-trainer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* Footer */
+    .footer-size{
+        padding-left: 20px;
+    }
+    .footer-display{
+        flex-direction: column;
+    }
+    hr{
+        margin-right: 20px;
     }
 }
